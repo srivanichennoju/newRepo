@@ -1,0 +1,336 @@
+[
+  {
+    "line": 3,
+    "elements": [
+      {
+        "start_timestamp": "2021-03-16T19:33:14.656Z",
+        "line": 6,
+        "name": "verify the number of values appearing on the screen",
+        "description": "",
+        "id": "verify-the-count-of-values;verify-the-number-of-values-appearing-on-the-screen",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 38915288300,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "Launch The URL in Chrome",
+            "match": {
+              "location": "stepDefinitions.ValuesSteps.launch_the_url_in_chrome()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "error_message": "java.lang.NullPointerException\r\n\tat org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElements(DefaultElementLocator.java:85)\r\n\tat org.openqa.selenium.support.pagefactory.internal.LocatingElementListHandler.invoke(LocatingElementListHandler.java:36)\r\n\tat com.sun.proxy.$Proxy17.size(Unknown Source)\r\n\tat pages.ValuesPage.VerifyRightCountValues(ValuesPage.java:151)\r\n\tat stepDefinitions.ValuesSteps.verify_the_number_of_values(ValuesSteps.java:39)\r\n\tat ✽.Verify the Number of Values(file:///C:/Users/srivani.chennoju/eclipse-workspace/Exercise_1/src/test/resources/features/Objective1.feature:8)\r\n",
+              "duration": 1994000,
+              "status": "failed"
+            },
+            "line": 8,
+            "name": "Verify the Number of Values",
+            "match": {
+              "location": "stepDefinitions.ValuesSteps.verify_the_number_of_values()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1936700,
+              "status": "skipped"
+            },
+            "line": 9,
+            "name": "Close the browser",
+            "match": {
+              "location": "stepDefinitions.ValuesSteps.close_the_browser()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Objectives"
+          },
+          {
+            "name": "@Objective1"
+          }
+        ]
+      }
+    ],
+    "name": "Verify the count of values",
+    "description": "",
+    "id": "verify-the-count-of-values",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/features/Objective1.feature",
+    "tags": []
+  },
+  {
+    "line": 3,
+    "elements": [
+      {
+        "start_timestamp": "2021-03-16T19:33:54.222Z",
+        "line": 6,
+        "name": "verify the values are greater than zero",
+        "description": "",
+        "id": "verify-the-values-are-greater-than-zero;verify-the-values-are-greater-than-zero",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 20296110500,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "Launch The URL in Chrome",
+            "match": {
+              "location": "stepDefinitions.ValuesSteps.launch_the_url_in_chrome()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "error_message": "java.lang.NullPointerException\r\n\tat org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElements(DefaultElementLocator.java:85)\r\n\tat org.openqa.selenium.support.pagefactory.internal.LocatingElementListHandler.invoke(LocatingElementListHandler.java:36)\r\n\tat com.sun.proxy.$Proxy17.iterator(Unknown Source)\r\n\tat pages.ValuesPage.VerifyValuesGreateThanZero(ValuesPage.java:157)\r\n\tat stepDefinitions.ValuesSteps.verify_the_values_are_greater_than_zero(ValuesSteps.java:46)\r\n\tat ✽.Verify the values are greater than zero(file:///C:/Users/srivani.chennoju/eclipse-workspace/Exercise_1/src/test/resources/features/Objective2.feature:8)\r\n",
+              "duration": 997800,
+              "status": "failed"
+            },
+            "line": 8,
+            "name": "Verify the values are greater than zero",
+            "match": {
+              "location": "stepDefinitions.ValuesSteps.verify_the_values_are_greater_than_zero()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 9,
+            "name": "Close the browser",
+            "match": {
+              "location": "stepDefinitions.ValuesSteps.close_the_browser()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Objectives"
+          },
+          {
+            "name": "@Objective2"
+          }
+        ]
+      }
+    ],
+    "name": "Verify the values are greater than zero",
+    "description": "",
+    "id": "verify-the-values-are-greater-than-zero",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/features/Objective2.feature",
+    "tags": []
+  },
+  {
+    "line": 3,
+    "elements": [
+      {
+        "start_timestamp": "2021-03-16T19:34:14.543Z",
+        "line": 6,
+        "name": "verify the total balance is correct",
+        "description": "",
+        "id": "verify-the-total-balance-is-correct;verify-the-total-balance-is-correct",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 20960981900,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "Launch The URL in Chrome",
+            "match": {
+              "location": "stepDefinitions.ValuesSteps.launch_the_url_in_chrome()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "error_message": "java.lang.NullPointerException\r\n\tat org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)\r\n\tat org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)\r\n\tat com.sun.proxy.$Proxy18.getText(Unknown Source)\r\n\tat pages.ValuesPage.TotalBalanceIsCorrectBasedOnValues(ValuesPage.java:167)\r\n\tat stepDefinitions.ValuesSteps.verify_the_total_balance_is_correct(ValuesSteps.java:53)\r\n\tat ✽.Verify the total balance is correct(file:///C:/Users/srivani.chennoju/eclipse-workspace/Exercise_1/src/test/resources/features/Objective3.feature:8)\r\n",
+              "duration": 1995900,
+              "status": "failed"
+            },
+            "line": 8,
+            "name": "Verify the total balance is correct",
+            "match": {
+              "location": "stepDefinitions.ValuesSteps.verify_the_total_balance_is_correct()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 997400,
+              "status": "skipped"
+            },
+            "line": 9,
+            "name": "Close the browser",
+            "match": {
+              "location": "stepDefinitions.ValuesSteps.close_the_browser()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Objectives"
+          },
+          {
+            "name": "@Objective3"
+          }
+        ]
+      }
+    ],
+    "name": "Verify the total balance is correct",
+    "description": "",
+    "id": "verify-the-total-balance-is-correct",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/features/Objective3.feature",
+    "tags": []
+  },
+  {
+    "line": 3,
+    "elements": [
+      {
+        "start_timestamp": "2021-03-16T19:34:35.519Z",
+        "line": 6,
+        "name": "verify the values are formatted as Currencies",
+        "description": "",
+        "id": "verify-the-values-are-formatted-as-currencies;verify-the-values-are-formatted-as-currencies",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 44284557600,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "Launch The URL in Chrome",
+            "match": {
+              "location": "stepDefinitions.ValuesSteps.launch_the_url_in_chrome()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "error_message": "java.lang.NullPointerException\r\n\tat org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElements(DefaultElementLocator.java:85)\r\n\tat org.openqa.selenium.support.pagefactory.internal.LocatingElementListHandler.invoke(LocatingElementListHandler.java:36)\r\n\tat com.sun.proxy.$Proxy17.iterator(Unknown Source)\r\n\tat pages.ValuesPage.VerifyingValuesFormattedCorrectly(ValuesPage.java:188)\r\n\tat stepDefinitions.ValuesSteps.verify_the_values_are_formatted_as_currencies(ValuesSteps.java:60)\r\n\tat ✽.Verify the values are formatted as Currencies(file:///C:/Users/srivani.chennoju/eclipse-workspace/Exercise_1/src/test/resources/features/Objective4.feature:8)\r\n",
+              "duration": 973500,
+              "status": "failed"
+            },
+            "line": 8,
+            "name": "Verify the values are formatted as Currencies",
+            "match": {
+              "location": "stepDefinitions.ValuesSteps.verify_the_values_are_formatted_as_currencies()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 997100,
+              "status": "skipped"
+            },
+            "line": 9,
+            "name": "Close the browser",
+            "match": {
+              "location": "stepDefinitions.ValuesSteps.close_the_browser()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Objectives"
+          },
+          {
+            "name": "@Objective4"
+          }
+        ]
+      }
+    ],
+    "name": "Verify the values are formatted as Currencies",
+    "description": "",
+    "id": "verify-the-values-are-formatted-as-currencies",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/features/Objective4.feature",
+    "tags": []
+  },
+  {
+    "line": 3,
+    "elements": [
+      {
+        "start_timestamp": "2021-03-16T19:35:20.156Z",
+        "line": 6,
+        "name": "verify the total balance matches sum of values",
+        "description": "",
+        "id": "verify-the-total-balance-matches-sum-of-values;verify-the-total-balance-matches-sum-of-values",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 54222564900,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "Launch The URL in Chrome",
+            "match": {
+              "location": "stepDefinitions.ValuesSteps.launch_the_url_in_chrome()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "error_message": "java.lang.NullPointerException\r\n\tat org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElements(DefaultElementLocator.java:85)\r\n\tat org.openqa.selenium.support.pagefactory.internal.LocatingElementListHandler.invoke(LocatingElementListHandler.java:36)\r\n\tat com.sun.proxy.$Proxy17.iterator(Unknown Source)\r\n\tat pages.ValuesPage.TotalBalanceMatchesSumOftheValues(ValuesPage.java:205)\r\n\tat stepDefinitions.ValuesSteps.verify_the_total_balance_matches_sum_of_values(ValuesSteps.java:67)\r\n\tat ✽.Verify the total balance matches sum of values(file:///C:/Users/srivani.chennoju/eclipse-workspace/Exercise_1/src/test/resources/features/Objective5.feature:8)\r\n",
+              "duration": 997100,
+              "status": "failed"
+            },
+            "line": 8,
+            "name": "Verify the total balance matches sum of values",
+            "match": {
+              "location": "stepDefinitions.ValuesSteps.verify_the_total_balance_matches_sum_of_values()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 987400,
+              "status": "skipped"
+            },
+            "line": 9,
+            "name": "Close the browser",
+            "match": {
+              "location": "stepDefinitions.ValuesSteps.close_the_browser()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Objectives"
+          },
+          {
+            "name": "@Objective5"
+          }
+        ]
+      }
+    ],
+    "name": "Verify the total balance matches sum of values",
+    "description": "",
+    "id": "verify-the-total-balance-matches-sum-of-values",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/features/Objective5.feature",
+    "tags": []
+  }
+]
